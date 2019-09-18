@@ -85,7 +85,7 @@ int main()
 
     while(getline(cin,str))
     {
-        cout<<"<a href=\""<<"chapter3/qs"<<i<<".html"<<"\">"<<"<div class=\"listItem\">"<<str<<"</div></a>"<<endl;
+        cout<<"<a href=\""<<"chapter1/qs"<<i<<".html"<<"\">"<<"<div class=\"listItem\">"<<i<<") "<<str<<"</div></a>"<<endl;
         i++;
     }
 

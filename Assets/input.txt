@@ -1,13 +1,39 @@
-1) What do you mean by Frame Relay Network?
-2) Write down some characteristics of Frame Relay
-3) Write Down some features of Frame Relay.
-4) Explain the basic operation Frame Relay.
-5) Define Frame Relay network. Explain and compare Frame relay and X.25 network
-6) The address field of a Frame Relay frame is 1011000000010111. What is DLCI(in decimal)?
-7) Write down the advantages and disadvantages of Frame Relay.
-8) Give an advantage and disadvantages or rae remy over a leased telephone line.
-9) Describe the functions of Frame Relay Layers.<\br>&ensp;&emsp;Or, Write down the Physical layer and Data link layer of Frame Relay.
-10) Frame Relay How it works?</br>Describe the Operation/Architecture of Frame Relay. Describe the operation of VE/DLCI inside the Frame Relay.
-11) Describe the Frame Relay Frame Format.</br>Describe the different fields of Frame Relay frame.
-12) Draw the frame relay frame and State the purpose of ECN, BECN of Frame Relay.
-13) What is traffic shaping in Congestion Control? Describe various approaches for controlling Network Congestion.
+What do you mean by Computer Network?
+Write down some of the design issues that should be considered for an efficient Network.
+DIscuss the basic Network architecture.
+What is Networking?
+Write down the uses of Network.
+What are the necessity for using Network in a company?
+What is data communication?
+Briefly describe the components of data communication system.
+Describe the main functions of network protocol.
+What do you mean by Transmission? What can be the different direction of Transmission?</br>&ensp;&emsp;Or, Explain Half- duplex & Full- duplex transmission techniques with example.
+What is Protocol? Describe the functions of different layers of TCP/IP.</br>&ensp;&emsp;Or, Show how to provide communication to the top layer of the five layer network.</br>&ensp;&emsp;Or,What are the key elements of protocol?</br>&ensp;&emsp;Or,Why standards important for protocol?
+What is Standard? Describe the functions of different layers of OSI model.
+Draw a neat labeled diagram of an OSI model for computer network showing all communication subnet boundary.
+What is ISO-OSI reference model? Which layer is used for the following :<ul><li>To route packets</li><li>To convert packets to frame</li><li>To detect and correct errors</li><li>To run services like DNS, FTP, Telnet ece.</li></ul>
+Which of the OSI layers handles each of the following :<ul><li> Breaking the transmitted bit stream into frames.</li><li> Determining which route through the subnet to use.</li></ul>
+State the difference between TCP/IP with OSl reference Model.
+With suitable diagram describes the operation of TCP/IP action : <ul><li>Action to sender</li><li>Action to receiver</li><li>Action to router</li></ul>
+Why is TCP called end-to-end protocol?
+Could you directly use TCP over Ethernet without using IP?
+Briefly describe the TCP header format with necessary figure.
+How does TCP/IP decide the size of an IP fragment? Explain.
+Sketch the relationship between layer, protocol and interface.
+What are the advantages of a multipoint connection over a point-to-point connection?
+Describe different types of Network.</br>&ensp;&emsp;Or,What is LAN, MAN and WAN? Mention the factors that determine whether a communication system is LAN, MAN or WAN.</br>&ensp;&emsp;Or,Classify the types of network according to distance.</br>&ensp;&emsp;Or,Define WLAN. Briefly discuss its architecture.
+Define Topology Describe different types of Network topology with its advantages & disadvantages/ Differences with each other.
+What is lOT? For n devices in a network, what is the number of cable links required for a mesh, ring, bus and star topology?
+What is Fibre Channel (FC)? What are the key elements of it?
+Give the transmission media and topologies recommended for Fibre Channel (FC).
+What do you mean by Distributed System Networking?</br>&ensp;&emsp;Or, How does Computer Network differ from the Distributed system?
+What do you mean by Connection-Oriented and Connectionless networking</br>&emsp;&ensp;Or, What is TCP and UDP ?</br>&emsp;&ensp;Or, Write down the difference between TCP and UDP.
+What is Internet, Intranet and Extranet?</br>&emsp;&ensp;Or, What are the applications of Internet?
+What is Unicasting. Multicasting and Broadcasting
+What is NIC? Write down the functions of NIC and Modem.
+Describe about Cable and its types with its advantages and disadvantages- Twisted Pair, Optical fiber, Coaxial Cable.
+Differentiate between Optical fiber and Twisted Pair cable.
+What is Switching Network?
+What is Packet Switching? Explain two different approaches of packet switching.
+What is Circuit Switching? How does it work?
+Write down advantages of Packet switching network over circuit switching.
