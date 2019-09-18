@@ -1,51 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-.collapsible {
-  background-color: #293133;
-  color: white;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 15px;
-}
-
-a {
-  color: #000;
-  text-decoration: none;
-}
-
-.listItem{
-  background-color: #cde3e7;
-  margin-top: 5px;
-  padding: 20px;
-  font-size: 20px;
-}
-
-.active, .collapsible:hover {
-  background-color: #191919;
-}
-
-.content {
-  padding: 0 18px;
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 0.2s ease-out;
-  background-color: white;
-}
-</style>
-</head>
-<body>
-<h1> Networking </h1>
-
-<p>Index</p>
-<button class="collapsible">Introduction</button>
-<div class="content">
 <div class="listItem">1) <a href="qs1.html">What do you mean by Computer Network?</a></div>
 <div class="listItem">2) <a href="qs2.html">Write down some of the design issues that should be considered for an efficient Network.</a></div>
 <div class="listItem">3) <a href="qs3.html">DIscuss the basic Network architecture.</a></div>
@@ -55,7 +7,7 @@ a {
 <div class="listItem">7) <a href="qs7.html">What is data communication?</a></div>
 <div class="listItem">8) <a href="qs8.html">Briefly describe the components of data communication system.</a></div>
 <div class="listItem">9) <a href="qs9.html">Describe the main functions of network protocol.</a></div>
-<div class="listItem">10) <a href="qs10.html">What do you mean by Transmission? What can be the different direction of Transmission?</br>&#09 Or, Explain Half- duplex & Full- duplex transmission techniques with example.</a></div>
+<div class="listItem">10) <a href="qs10.html">What do you mean by Transmission? What can be the different direction of Transmission?</br>Or, Explain Half- duplex & Full- duplex transmission techniques with example.</a></div>
 <div class="listItem">11) <a href="qs11.html">What i1s Protocol'? Describe the functions of different layers of TCP/IP.</br>Or, Show how to provide communication to the top layer of the five layer network.</br>Or,What are the key elements of protocol?</br>Or,Why standards important for protocol?</a></div>
 <div class="listItem">12) <a href="qs12.html">What is Standard? Describe the functions of different layers of OSI model.</a></div>
 <div class="listItem">13) <a href="qs13.html">Draw a neat labeled diagram of an OSI model for computer network showing all</a></div>
@@ -89,32 +41,3 @@ a {
 <div class="listItem">41) <a href="qs41.html">What is Packet Switching? Explain two different approaches of packet switching.</a></div>
 <div class="listItem">42) <a href="qs42.html">What is Circuit Switching? How does it work?</a></div>
 <div class="listItem">43) <a href="qs43.html">Write down advantages of Packet switching network over circuit switching.</a></div>
-</div>
-<button class="collapsible">Chapter 2</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-<button class="collapsible">Chapter 3</button>
-<div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>
-
-<script>
-var coll = document.getElementsByClassName("collapsible");
-var i;
-
-for (i = 0; i < coll.length; i++) {
-  coll[i].addEventListener("click", function() {
-    this.classList.toggle("active");
-    var content = this.nextElementSibling;
-    if (content.style.maxHeight){
-      content.style.maxHeight = null;
-    } else {
-      content.style.maxHeight = content.scrollHeight + "px";
-    } 
-  });
-}
-</script>
-
-</body>
-</html>
