@@ -1,0 +1,13 @@
+40) What do you mean by Frame Relay Network?
+41) Write down some characteristics of Frame Relay
+42) Write Down some features of Frame Relay.
+43) Explain the basic operation Frame Relay.
+44) Define Frame Relay network. Explain and compare Frame relay and X.25 network
+45) The address field of a Frame Relay frame is 1011000000010111. What is DLCI(in decimal)?
+46) Write down the advantages and disadvantages of Frame Relay.
+47) Give an advantage and disadvantages or rae remy over a leased telephone line.
+48) Describe the functions of Frame Relay Layers.<\br>&ensp;&emsp;Or, Write down the Physical layer and Data link layer of Frame Relay.
+49) Frame Relay How it works?</br>Describe the Operation/Architecture of Frame Relay. Describe the operation of VE/DLCI inside the Frame Relay.
+50) Describe the Frame Relay Frame Format.</br>Describe the different fields of Frame Relay frame.
+51) Draw the frame relay frame and State the purpose of ECN, BECN of Frame Relay.
+52) What is traffic shaping in Congestion Control? Describe various approaches for controlling Network Congestion.

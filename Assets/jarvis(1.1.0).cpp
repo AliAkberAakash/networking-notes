@@ -73,8 +73,8 @@ typedef vector <pii> vpii;
 
 int main()
 {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    freopen("input(1.1.0).txt", "r", stdin);
+    freopen("output(1.1.0).txt", "w", stdout);
 
     string str,link,serial;
 
@@ -85,7 +85,11 @@ int main()
 
     while(getline(cin,str))
     {
-        cout<<"<a href=\""<<"chapter3/qs"<<i<<".html"<<"\">"<<"<div class=\"listItem\">"<<str<<"</div></a>"<<endl;
+        //cout<<i<<") ";
+        if(i<10)
+            pos=3;
+        else pos=4;
+        cout<<str.substr(pos)<<endl;
         i++;
     }
 

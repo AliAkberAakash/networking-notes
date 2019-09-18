@@ -10,7 +10,7 @@
   padding: 18px;
   width: 100%;
   border: none;
-  text-align: left;
+  text-align: center;
   outline: none;
   font-size: 15px;
 }
@@ -21,10 +21,15 @@ a {
 }
 
 .listItem{
+
   background-color: #cde3e7;
   margin-top: 5px;
   padding: 20px;
-  font-size: 20px;
+  
+}
+
+.active, .listItem:hover {
+  background-color: #5e7c82;
 }
 
 .active, .collapsible:hover {
@@ -41,62 +46,74 @@ a {
 </style>
 </head>
 <body>
-<h1> Networking </h1>
-
-<p>Index</p>
+<h1 align="center"> Networking </h1>
 <button class="collapsible">Introduction</button>
 <div class="content">
-<div class="listItem">1) <a href="qs1.html">What do you mean by Computer Network?</a></div>
-<div class="listItem">2) <a href="qs2.html">Write down some of the design issues that should be considered for an efficient Network.</a></div>
-<div class="listItem">3) <a href="qs3.html">DIscuss the basic Network architecture.</a></div>
-<div class="listItem">4) <a href="qs4.html">What is Networking?</a></div>
-<div class="listItem">5) <a href="qs5.html">Write down the uses of Network.</a></div>
-<div class="listItem">6) <a href="qs6.html">What are the necessity for using Network in a company?</a></div>
-<div class="listItem">7) <a href="qs7.html">What is data communication?</a></div>
-<div class="listItem">8) <a href="qs8.html">Briefly describe the components of data communication system.</a></div>
-<div class="listItem">9) <a href="qs9.html">Describe the main functions of network protocol.</a></div>
-<div class="listItem">10) <a href="qs10.html">What do you mean by Transmission? What can be the different direction of Transmission?</br>&#09 Or, Explain Half- duplex & Full- duplex transmission techniques with example.</a></div>
-<div class="listItem">11) <a href="qs11.html">What i1s Protocol'? Describe the functions of different layers of TCP/IP.</br>Or, Show how to provide communication to the top layer of the five layer network.</br>Or,What are the key elements of protocol?</br>Or,Why standards important for protocol?</a></div>
-<div class="listItem">12) <a href="qs12.html">What is Standard? Describe the functions of different layers of OSI model.</a></div>
-<div class="listItem">13) <a href="qs13.html">Draw a neat labeled diagram of an OSI model for computer network showing all</a></div>
-<div class="listItem">14) <a href="qs14.html">unication subnet boundary.</a></div>
-<div class="listItem">15) <a href="qs15.html">What is ISO-OSI reference model? Which layer is used for the following :</br>-To route packets</br>-To convert packets to frame</br>-To detect and correct errors</br>-To run services like DNS, FTP, Telnet ece.</a></div>
-<div class="listItem">16) <a href="qs16.html">Which of the OSI layers handles each of the following :</br>(a) Breaking the transmitted bit stream into frames.</br>(b) Determining which route through the subnet to use.</a></div>
-<div class="listItem">17) <a href="qs17.html">State the difference between TCP/IP with OSI reference Model.</a></div>
-<div class="listItem">18) <a href="qs18.html">With suitable diagram describes the operation of TCP/IP action : <ul><li>Action to sender</li><li>Action to receiver</li><li>Action to router</li></ul></a></div>
-<div class="listItem">19) <a href="qs19.html">Why is TCP called end-to-end protocol?</a></div>
-<div class="listItem">20) <a href="qs20.html">Could you directly use TCP over Ethernet without using IP?</a></div>
-<div class="listItem">21) <a href="qs21.html">Briefly describe the TCP header format with necessary figure.</a></div>
-<div class="listItem">22) <a href="qs22.html">How does TCP/IP decide the size of an IP fragment? Explain.</a></div>
-<div class="listItem">23) <a href="qs23.html">Sketch the relationship between layer, protocol and interface.</a></div>
-<div class="listItem">24) <a href="qs24.html">What are the advantages of a multipoint connection over a point-to-point connection?</a></div>
-<div class="listItem">25) <a href="qs25.html">Describe different types of Network.</br>Or,What is LAN, MAN and WAN? Mention the factors that determine whether a communication system is LAN, MAN or WAN.</br>Or,Classify the types of network according to distance.</br>Or,Define WLAN. Briefly discuss its architecture.</a></div>
-<div class="listItem">26) <a href="qs26.html">Define Topology Describe different types of Network topology with its advantages &</a></div>
-<div class="listItem">27) <a href="qs27.html">dvantages/ Differences with each other.</a></div>
-<div class="listItem">28) <a href="qs28.html">What is lOT? For n devices in a network, what is the number of cable links required for a mesh, ring, bus and star topology?</a></div>
-<div class="listItem">29) <a href="qs29.html">What is Fibre Channel (FC)? What are the key elements of it?</a></div>
-<div class="listItem">30) <a href="qs30.html">Give the transmission media and topologies recommended for Fibre Channel (FC)</a></div>
-<div class="listItem">31) <a href="qs31.html">What do you mean by Distributed System Networking?</a></div>
-<div class="listItem">32) <a href="qs32.html">How does Computer Network differ from the Distributed system</a></div>
-<div class="listItem">33) <a href="qs33.html">What do you mean by Connection-Oriented and Connectionless networking</a></div>
-<div class="listItem">34) <a href="qs34.html">What is TCP and UDP ? Or, Write down the difference between TCP and UDP.</a></div>
-<div class="listItem">35) <a href="qs35.html">What is Internet, Intranet and Extranet?</br>Or, What are the applications of Internet?</a></div>
-<div class="listItem">36) <a href="qs36.html">What is Unicasting. Multicasting and Broadcasting</a></div>
-<div class="listItem">37) <a href="qs37.html">What is NIC? Write down the functions of NIC and Modem.</a></div>
-<div class="listItem">38) <a href="qs38.html">Describe about Cable and its types with its advantages and disadvantages- twisted Pair, Optical fiber, Coaxial Cable.</a></div>
-<div class="listItem">39) <a href="qs39.html">Differentiate between Optical fiber and Twisted Pair cable.</a></div>
-<div class="listItem">40) <a href="qs40.html">What is Switching Network?</a></div>
-<div class="listItem">41) <a href="qs41.html">What is Packet Switching? Explain two different approaches of packet switching.</a></div>
-<div class="listItem">42) <a href="qs42.html">What is Circuit Switching? How does it work?</a></div>
-<div class="listItem">43) <a href="qs43.html">Write down advantages of Packet switching network over circuit switching.</a></div>
+<a href="chapter3/qs1.html"><div class="listItem">1) What do you mean by Computer Network?</div></a>
+<a href="chapter3/qs2.html"><div class="listItem">2) Write down some of the design issues that should be considered for an efficient Network.</div></a>
+<a href="chapter3/qs3.html"><div class="listItem">3) DIscuss the basic Network architecture.</div></a>
+<a href="chapter3/qs4.html"><div class="listItem">4) What is Networking?</div></a>
+<a href="chapter3/qs5.html"><div class="listItem">5) Write down the uses of Network.</div></a>
+<a href="chapter3/qs6.html"><div class="listItem">6) What are the necessity for using Network in a company?</div></a>
+<a href="chapter3/qs7.html"><div class="listItem">7) What is data communication?</div></a>
+<a href="chapter3/qs8.html"><div class="listItem">8) Briefly describe the components of data communication system.</div></a>
+<a href="chapter3/qs9.html"><div class="listItem">9) Describe the main functions of network protocol.</div></a>
+<a href="chapter3/qs10.html"><div class="listItem">10) What do you mean by Transmission? What can be the different direction of Transmission?</br>&ensp;&emsp;Or, Explain Half- duplex & Full- duplex transmission techniques with example.</div></a>
+<a href="chapter3/qs11.html"><div class="listItem">11) What is Protocol? Describe the functions of different layers of TCP/IP.</br>&ensp;&emsp;Or, Show how to provide communication to the top layer of the five layer network.</br>&ensp;&emsp;Or,What are the key elements of protocol?</br>&ensp;&emsp;Or,Why standards important for protocol?</div></a>
+<a href="chapter3/qs12.html"><div class="listItem">12) What is Standard? Describe the functions of different layers of OSI model.</div></a>
+<a href="chapter3/qs13.html"><div class="listItem">13) Draw a neat labeled diagram of an OSI model for computer network showing all communication subnet boundary.</div></a>
+<a href="chapter3/qs14.html"><div class="listItem">14) What is ISO-OSI reference model? Which layer is used for the following :<ul><li>To route packets</li><li>To convert packets to frame</li><li>To detect and correct errors</li><li>To run services like DNS, FTP, Telnet ece.</li></ul></div></a>
+<a href="chapter3/qs15.html"><div class="listItem">15) Which of the OSI layers handles each of the following :<ul><li> Breaking the transmitted bit stream into frames.</li><li> Determining which route through the subnet to use.</li></ul></div></a>
+<a href="chapter3/qs16.html"><div class="listItem">16) State the difference between TCP/IP with OSl reference Model.</div></a>
+<a href="chapter3/qs17.html"><div class="listItem">17) With suitable diagram describes the operation of TCP/IP action : <ul><li>Action to sender</li><li>Action to receiver</li><li>Action to router</li></ul></div></a>
+<a href="chapter3/qs18.html"><div class="listItem">18) Why is TCP called end-to-end protocol?</div></a>
+<a href="chapter3/qs19.html"><div class="listItem">19) Could you directly use TCP over Ethernet without using IP?</div></a>
+<a href="chapter3/qs20.html"><div class="listItem">20) Briefly describe the TCP header format with necessary figure.</div></a>
+<a href="chapter3/qs21.html"><div class="listItem">21) How does TCP/IP decide the size of an IP fragment? Explain.</div></a>
+<a href="chapter3/qs22.html"><div class="listItem">22) Sketch the relationship between layer, protocol and interface.</div></a>
+<a href="chapter3/qs23.html"><div class="listItem">23) What are the advantages of a multipoint connection over a point-to-point connection?</div></a>
+<a href="chapter3/qs24.html"><div class="listItem">24) Describe different types of Network.</br>&ensp;&emsp;Or,What is LAN, MAN and WAN? Mention the factors that determine whether a communication system is LAN, MAN or WAN.</br>&ensp;&emsp;Or,Classify the types of network according to distance.</br>&ensp;&emsp;Or,Define WLAN. Briefly discuss its architecture.</div></a>
+<a href="chapter3/qs25.html"><div class="listItem">25) Define Topology Describe different types of Network topology with its advantages & disadvantages/ Differences with each other.</div></a>
+<a href="chapter3/qs26.html"><div class="listItem">26) What is lOT? For n devices in a network, what is the number of cable links required for a mesh, ring, bus and star topology?</div></a>
+<a href="chapter3/qs27.html"><div class="listItem">27) What is Fibre Channel (FC)? What are the key elements of it?</div></a>
+<a href="chapter3/qs28.html"><div class="listItem">28) Give the transmission media and topologies recommended for Fibre Channel (FC).</div></a>
+<a href="chapter3/qs29.html"><div class="listItem">29) What do you mean by Distributed System Networking?</br>&ensp;&emsp;Or, How does Computer Network differ from the Distributed system?</div></a>
+<a href="chapter3/qs30.html"><div class="listItem">30) What do you mean by Connection-Oriented and Connectionless networking</br>&emsp;&ensp;Or, What is TCP and UDP ?</br>&emsp;&ensp;Or, Write down the difference between TCP and UDP.</div></a>
+<a href="chapter3/qs31.html"><div class="listItem">31) What is Internet, Intranet and Extranet?</br>&emsp;&ensp;Or, What are the applications of Internet?</div></a>
+<a href="chapter3/qs32.html"><div class="listItem">32) What is Unicasting. Multicasting and Broadcasting</div></a>
+<a href="chapter3/qs33.html"><div class="listItem">33) What is NIC? Write down the functions of NIC and Modem.</div></a>
+<a href="chapter3/qs34.html"><div class="listItem">34) Describe about Cable and its types with its advantages and disadvantages- Twisted Pair, Optical fiber, Coaxial Cable.</div></a>
+<a href="chapter3/qs35.html"><div class="listItem">35) Differentiate between Optical fiber and Twisted Pair cable.</div></a>
+<a href="chapter3/qs36.html"><div class="listItem">36) What is Switching Network?</div></a>
+<a href="chapter3/qs37.html"><div class="listItem">37) What is Packet Switching? Explain two different approaches of packet switching.</div></a>
+<a href="chapter3/qs38.html"><div class="listItem">38) What is Circuit Switching? How does it work?</div></a>
+<a href="chapter3/qs39.html"><div class="listItem">39) Write down advantages of Packet switching network over circuit switching.</div></a>
 </div>
-<button class="collapsible">Chapter 2</button>
+<button class="collapsible">Frame Relay</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<a href="chapter3/qs1.html"><div class="listItem">1) What do you mean by Frame Relay Network?</div></a>
+<a href="chapter3/qs2.html"><div class="listItem">2) Write down some characteristics of Frame Relay</div></a>
+<a href="chapter3/qs3.html"><div class="listItem">3) Write Down some features of Frame Relay.</div></a>
+<a href="chapter3/qs4.html"><div class="listItem">4) Explain the basic operation Frame Relay.</div></a>
+<a href="chapter3/qs5.html"><div class="listItem">5) Define Frame Relay network. Explain and compare Frame relay and X.25 network</div></a>
+<a href="chapter3/qs6.html"><div class="listItem">6) The address field of a Frame Relay frame is 1011000000010111. What is DLCI(in decimal)?</div></a>
+<a href="chapter3/qs7.html"><div class="listItem">7) Write down the advantages and disadvantages of Frame Relay.</div></a>
+<a href="chapter3/qs8.html"><div class="listItem">8) Give an advantage and disadvantages or rae remy over a leased telephone line.</div></a>
+<a href="chapter3/qs9.html"><div class="listItem">9) Describe the functions of Frame Relay Layers.<\br>&ensp;&emsp;Or, Write down the Physical layer and Data link layer of Frame Relay.</div></a>
+<a href="chapter3/qs10.html"><div class="listItem">10) Frame Relay How it works?</br>Describe the Operation/Architecture of Frame Relay. Describe the operation of VE/DLCI inside the Frame Relay.</div></a>
+<a href="chapter3/qs11.html"><div class="listItem">11) Describe the Frame Relay Frame Format.</br>Describe the different fields of Frame Relay frame.</div></a>
+<a href="chapter3/qs12.html"><div class="listItem">12) Draw the frame relay frame and State the purpose of ECN, BECN of Frame Relay.</div></a>
+<a href="chapter3/qs13.html"><div class="listItem">13) What is traffic shaping in Congestion Control? Describe various approaches for controlling Network Congestion.</div></a>
 </div>
-<button class="collapsible">Chapter 3</button>
+<button class="collapsible">ATM Network</button>
 <div class="content">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+<a href="chapter3/qs1.html"><div class="listItem">1) What do you mean by ATM/B-ISDN?</div></a>
+<a href="chapter3/qs2.html"><div class="listItem">2) Describe the B-ISDN/ATM reference model.</div></a>
+<a href="chapter3/qs3.html"><div class="listItem">3) Detine ATM with its functions.</div></a>
+<a href="chapter3/qs4.html"><div class="listItem">4) Name and describe the ATM layers with their functions.</div></a>
+<a href="chapter3/qs5.html"><div class="listItem">5) Describe the architecture ofATM protocol.</div></a>
+<a href="chapter3/qs6.html"><div class="listItem">6) Show the call establishment using virtual path in an ATM network.</div></a>
+<a href="chapter3/qs7.html"><div class="listItem">7) Describe about AIM cell networks/format.</div></a>
 </div>
 
 <script>

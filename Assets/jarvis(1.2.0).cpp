@@ -73,22 +73,30 @@ typedef vector <pii> vpii;
 
 int main()
 {
-    freopen("input.txt", "r", stdin);
-    freopen("output.txt", "w", stdout);
+    freopen("input(1.2.0).txt","r",stdin);
 
-    string str,link,serial;
-
-    int pos,i=1;
-    link = "qs";
-    serial = "";
+    int i=0;
+    string write_to_file;
 
 
-    while(getline(cin,str))
+    while(getline(cin,write_to_file))
     {
-        cout<<"<a href=\""<<"chapter3/qs"<<i<<".html"<<"\">"<<"<div class=\"listItem\">"<<str<<"</div></a>"<<endl;
+        string filename = "chapter1/qs";
+        stringstream ss;
+        ss << (i+1);
+        string str = ss.str();
+        filename+=str;
+        filename+=".html";
+        FILE* fp = freopen(filename.c_str(), "w", stdout);
+        cout<<"<html>\n<head>\n<link href=\"style.css\" rel=\"stylesheet\">\n</head>"<<endl;
+        cout<<"<body>"<<endl;
+        cout<<"<div class=\"qs\"><h1>"<<write_to_file<<"</h1></div>"<<endl;
+        cout<<"<div class=\"ans\"><p>"<<endl<<endl<<"</p></div>"<<endl;
+        cout<<"</body>"<<endl;
+        cout<<"</html>"<<endl;
+        fclose(fp);
         i++;
     }
-
 
     return 0;
 }
