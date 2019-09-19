@@ -3,7 +3,8 @@
   background-color: #191919;
   padding: 10px;
 }
-.answer {
+.ans {
+  padding: 10px;
   background-color: #cde3e7;
-  padding: 20px;
+  margin-top: 5px;
 }
